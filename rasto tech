@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Message</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .message-container {
+            background-color: #fff;
+            border: 2px solid #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2a9d8f;
+            text-align: center;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .channel, .group {
+            font-weight: bold;
+            color: #e76f51;
+        }
+        .highlight {
+            background-color: #f4a261;
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: #fff;
+        }
+        .admin {
+            color: #264653;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="message-container">
+        <h1>Welcome to Rastogras Tech!</h1>
+        <p>
+            Join our <span class="channel">Rastogras Tech Channel</span> for the latest premium files and updates:
+            <a href="https://t.me/+C5AELqjO3y01NmM0">https://t.me/+C5AELqjO3y01NmM0</a>
+        </p>
+        <p>
+            Be a part of our vibrant community at <span class="group">Rastogras Tech Chat</span>:
+            <a href="https://t.me/+hGWn8L1eA_kyOGJk">https://t.me/+hGWn8L1eA_kyOGJk</a>
+        </p>
+        <p class="highlight">Unlock unlimited premium files and exclusive content!</p>
+        <p class="admin">Admin: @roy_bott</p>
+        <div class="footer">
+            &copy; 2024 by @roy_bott
+        </div>
+    </div>
+</body>
+</html>
