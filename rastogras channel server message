@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Message</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Playfair+Display:wght@700&family=Raleway:wght@700&family=Merriweather:wght@700&family=Indie+Flower&family=Lobster&family=Pacifico&family=Concert+One&family=Permanent+Marker&display=swap');
+
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            margin: 20px;
+            padding: 20px;
+            text-shadow: 1px 1px 2px #000;
+        }
+
+        .message-container {
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 4px solid #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            color: #f39c12;
+            text-align: center;
+            animation: rotate 5s linear infinite;
+        }
+
+        p {
+            margin: 15px 0;
+            font-size: 1.2em;
+            line-height: 1.5em;
+            font-family: 'Lobster', cursive;
+        }
+
+        .channel, .group {
+            font-weight: bold;
+            font-family: 'Raleway', sans-serif;
+            color: #e74c3c;
+            font-size: 1.3em;
+        }
+
+        .highlight {
+            font-family: 'Merriweather', serif;
+            background-color: #3498db;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 1.4em;
+            animation: scale 2s infinite;
+        }
+
+        .admin {
+            color: #2ecc71;
+            font-family: 'Pacifico', cursive;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+            font-family: 'Indie Flower', cursive;
+            font-size: 1.1em;
+            color: #34495e;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .blinking-text {
+            animation: blink 1.5s infinite;
+        }
+
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes scale {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .description {
+            font-family: 'Concert One', sans-serif;
+            font-size: 1.3em;
+            color: #e67e22;
+        }
+
+        .description .item {
+            margin: 10px 0;
+            font-family: 'Raleway', sans-serif;
+            color: #d35400;
+        }
+
+        .emojis {
+            font-size: 1.5em;
+            animation: scale 1.5s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="message-container">
+        <h1 class="blinking-text">🎉 Welcome to Rastogras Tech! 🎉</h1>
+        <p>
+            Join our <span class="channel">Rastogras Tech Channel</span> for the latest premium files and updates:
+            <a href="https://t.me/+C5AELqjO3y01NmM0">https://t.me/+C5AELqjO3y01NmM0</a>
+        </p>
+        <p>
+            Be a part of our vibrant community at <span class="group">Rastogras Tech Chat</span>:
+            <a href="https://t.me/+hGWn8L1eA_kyOGJk">https://t.me/+hGWn8L1eA_kyOGJk</a>
+</p>
+        <p class="highlight">Unlock unlimited premium files and exclusive content! 👻</p>
+        <div class="description">
+            <p class="item">✅ғʀᴇᴇ ᴄᴄ</p>
+            <p class="item">✅ғʀᴇᴇ ʙɪɴ</p>
+            <p class="item">✅ᴘᴀɪᴅ ʜᴀᴄᴋɪɴɢ ᴛᴜᴛᴏʀɪᴀʟ</p>
+            <p class="item">✅ᴄᴀʀᴅɪɴɢ ᴄᴏᴜʀsᴇs</p>
+            <p class="item">✅ᴘʀᴇᴍɪᴜᴍ ᴛᴏᴏʟs & sɪᴛᴇ's</p>
+            <p class="item">✅ᴘʀᴇᴍɪᴜᴍ ᴏᴛᴛ ᴀᴄᴄᴏᴜɴᴛ</p>
+            <p class="item">✅sᴏғᴛᴡᴀʀᴇ's, ʟɪᴄᴇɴᴄᴇ ᴋᴇʏs</p>
+            <p class="item">✅ʜᴇʟᴘғᴜʟ ᴀʀᴛɪᴄʟᴇs, ᴛɪᴘs & ᴛʀɪᴄᴋs</p>
+            <p class="item">✅ᴍᴏᴅ ᴀᴘᴋ & ᴍᴜᴄʜ ᴍᴏʀᴇ</p>
+            <p class="item">✅SAFARICOM UNLIMITED</p>
+        </div>
+        <p class="admin">Admin: @roy_bott</p>
+        <div class="footer">
+            &copy; 2024 by @roy_bott
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.querySelector('.message-container');
+            container.style.transition = 'transform 0.5s';
+            container.addEventListener('mouseover', function() {
+                container.style.transform = 'scale(1.05)';
+            });
+            container.addEventListener('mouseout', function() {
+                container.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>
